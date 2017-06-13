@@ -1,0 +1,32 @@
+{
+  "name": "typescript-nodejs-starter",
+  "version": "1.0.0",
+  "description": "Starter for TS and Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build:live": "nodemon --exec ./node_modules/.bin/ts-node -- ./index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhad/typescript-nodejs-starter.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "Nodejs",
+    "Starter"
+  ],
+  "author": "Chad Lynch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xhad/typescript-nodejs-starter/issues"
+  },
+  "homepage": "https://github.com/xhad/typescript-nodejs-starter#readme",
+  "devDependencies": {
+    "@types/node": "^7.0.31",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.6",
+    "typescript": "^2.3.4"
+  }
+}
